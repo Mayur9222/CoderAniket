@@ -1,67 +1,112 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Aniket's Personal Site</title>
+body{
+   /* background-color: rgb(228, 249, 245);   */
+    margin: 0;
+    text-align: center;
+}
 
-    <link rel="stylesheet" href="css/homepage.css">
-    <link rel="shortcut icon" href="Images/favicon.ico">
-</head>
-<body>
-    <div class="primary-div">
-        
-        <div class="heading">
-            <div class="logo">
-                <img class="logo-position" src ="Images\CoderAniket3.png" hight="75px" width="150px" alt="coderaniketLOGO">
-            </div>
-            <div class="menu">
-                <div>
-                    <ul class="menu-bar">
-                        <li class="bar"><a class="menu-box" href="#">Home</a></li>
-                        <li class="bar"><a class="menu-box" href="#">Porfolio</a></li>
-                        <li class="bar"><a class="menu-box" href="#">Buy Code</a></li>
-                        <li class="bar"><a class="menu-box" href="#">Contact Me</a></li>
-                    </ul class="menu-bar">
-                </div>
-            </div> 
-        </div>
+.primary-div{
+    margin: auto;
+    width: 1360px;
+}   
+.heading{
+    width: 1360px;
+    height: 100px;
+    margin: auto;
+}
+.logo{
+    float: left;
+    width: 20%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+}
+.logo-position{
+    position: absolute;
+    right: 55px;
+    top: 18px;
+}
+.menu{
+    color: rgb(64, 81, 78);
+    margin: 5px black; 
+    float: left;
+    width: 80%;
+    height: 100%;
+    position: relative;
+}
+.menu-bar{
+     float: right;
+     position: absolute;
+     right: 100px;
+     /* background-color: rgb(49, 227, 203);*/
+     font-family: sans-serif;
+     font-weight: 600;
+     font-size: 16px;
+     width: 470px;
+     height: 70px;
+     line-height: 60px;
+     list-style: none;
+     margin: 10px;
+     padding: 0;
+}
+.bar{
+    float: left;
+}
+.menu-box{
+    display: block;
+    padding: 0 20px;
+    color: rgb(16, 152, 157);
+    text-decoration: none;
+}
+.menu-box:hover{
+    background-color:rgb(228, 249, 245);
 
-        <div id="middle-heading">
-            <div class="left-mid">
-                Image styling ,animations, graphics, ETC…..
+}
+#middle-heading{
+    background-color: rgb(228, 249, 245);
+    width: 1360px;
+    height: 510px;
+    margin: auto;
+    position: relative;
+}
+.left-mid{
+    float: left;
+    margin: auto;
+    background-color: yellow;
+    width: 250px;
+    height: 100%;
+}
+.center-mid{
+    float: left;
+    width: 860px;
+    height: 100%;
+}
+.myname{
+    margin: 100px auto;
+    width: 60%;
+    padding: 10px;
+}
+.font1{
+    font-family: cursive;
+    font-size: 2rem;
+    font-style: italic;
+}
+.myname{
+    margin: auto;
+    width: auto;
+    height: auto;
+}
 
-            </div>
-
-            <div class="center-mid">
-                <div class="myname">
-                    <p class="font1">Hello there!</p>
-                    <div class="myname"><img src="Images\myname.png" alt="I'm Aniket" hight="50%" width="50%"> </div>
-                    
-                </div>
-                <div class="myintro">
-                    <p>I Graduated in Bachelor of Engineering in Electronics and Telecommunication from Nagpur University in year of 2019.</p>
-                    <p>Email: coderaniket17@gmail.com</p>
-                </div>
-            </div>
-
-            <div class="right-mid">
-                Image styling ,animations, graphics, ETC…..
-            </div>
-        </div>
-        
-
-
-        
-
-    </div>
-           
-    
-    
-    
-    <hr color="red" width="100%">
-
-</body>
-</html>
+.myintro{
+    margin: 50px auto;
+    width: 60%;
+    padding: 10px;
+    font-family: Helvetica, sans-serif;
+}
+.right-mid{
+    float: right;
+    margin: auto;
+    background-color: blue;
+    width: 250px;
+    height: 100%;
+}
