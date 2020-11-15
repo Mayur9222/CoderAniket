@@ -1,112 +1,113 @@
-
-body{
-   /* background-color: rgb(228, 249, 245);   */
-    margin: 0;
+body{  
+    font-family: "Montserrat", sans-serif;
+}
+#title{
+    background-color: rgb(191, 213, 219);
+    font-family: "Ubuntu";
+    font-size: 20px;
+    padding: 10px;
+}
+#Profile-Summery{
+    margin: 0 10%;
+    border-style: groove;
+    margin-top: 2%;
+}
+#My-career{
+    background-color: rgb(213, 230, 235);
+    margin-top: 2%;
+    padding: 2% 10%;
+}
+.navbar{ background-color: #d0d4d4; }
+.navbar-nav{ width: 50%; }
+.navbar-brand-img{ margin-right: 0 10px; }
+.navbar-brand {
+    margin-right: 0 100px;
+    padding-left: 10px;
+    font-family: "Righteous";
+    font-size: 1.9rem;
+    font-weight: 500;
+}
+.nav-item{
+    margin: auto;
+    display: block;
     text-align: center;
 }
-
-.primary-div{
+.nav-link{
+    text-align: center;
     margin: auto;
-    width: 1360px;
-}   
-.heading{
-    width: 1360px;
-    height: 100px;
-    margin: auto;
-}
-.logo{
-    float: left;
-    width: 20%;
-    height: 100%;
-    margin: auto;
-    position: relative;
-}
-.logo-position{
-    position: absolute;
-    right: 55px;
-    top: 18px;
-}
-.menu{
-    color: rgb(64, 81, 78);
-    margin: 5px black; 
-    float: left;
-    width: 80%;
-    height: 100%;
-    position: relative;
-}
-.menu-bar{
-     float: right;
-     position: absolute;
-     right: 100px;
-     /* background-color: rgb(49, 227, 203);*/
-     font-family: sans-serif;
-     font-weight: 600;
-     font-size: 16px;
-     width: 470px;
-     height: 70px;
-     line-height: 60px;
-     list-style: none;
-     margin: 10px;
-     padding: 0;
-}
-.bar{
-    float: left;
-}
-.menu-box{
     display: block;
-    padding: 0 20px;
-    color: rgb(16, 152, 157);
+    width: 50%;
+    height:50%;
+}
+
+.title-container{ padding: 2% 8% 2% 7%;}
+.Profile-Summery-container{ padding: 2% 8% 1% 7%; }
+.My-career-container{ padding: 2% 8% 1% 7%; }
+
+.table-settings{ padding: 0% 4%; }
+
+.left-table-settings{
+    text-align: center;
+}
+.right-table-settings{
+    padding: 5px 10px 0px 13px;
+}
+a{
+    color: black;
+}
+a:hover{
+    border-style: none;
     text-decoration: none;
 }
-.menu-box:hover{
-    background-color:rgb(228, 249, 245);
 
-}
-#middle-heading{
-    background-color: rgb(228, 249, 245);
-    width: 1360px;
-    height: 510px;
-    margin: auto;
-    position: relative;
-}
-.left-mid{
-    float: left;
-    margin: auto;
-    background-color: yellow;
-    width: 250px;
-    height: 100%;
-}
-.center-mid{
-    float: left;
-    width: 860px;
-    height: 100%;
-}
-.myname{
-    margin: 100px auto;
-    width: 60%;
-    padding: 10px;
-}
 .font1{
-    font-family: cursive;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    color:black;
+    font-size: 2em;
+    line-height: 0.7;
+    margin-top: 200px;
+}
+.font2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    color:rgb(27, 26, 26);
+    font-size: 1.6em;
+    border-style: none none solid none;
+}
+.font3{
+    font-family: 'Londrina Shadow', cursive;
+    font-weight: 500;
+    font-size: 6em;
+    line-height: 0.8;
+}
+.font4{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2em;
+    line-height: 1.2;
+}
+.font5{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    color:black;
+    font-size: 1.3rem;
+}
+.font-subheading{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    color:black;
     font-size: 2rem;
-    font-style: italic;
+    /* border-style: none none solid none; */
 }
-.myname{
-    margin: auto;
-    width: auto;
-    height: auto;
+.title-image{
+    width: 80%;
+    margin-left: 28%;
 }
-
-.myintro{
-    margin: 50px auto;
+.personal-image{
     width: 60%;
-    padding: 10px;
-    font-family: Helvetica, sans-serif;
-}
-.right-mid{
-    float: right;
     margin: auto;
-    background-color: blue;
-    width: 250px;
-    height: 100%;
+    display: block;
+}
+.eduational-image{
+    width: 100%;
 }
